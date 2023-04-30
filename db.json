@@ -1,0 +1,39 @@
+{
+  "vehicles": [
+    {
+      "id": 1,
+      "Model": "Mercedes-AMG",
+      "Make": "GLE 53",
+      "Info":"The Mercedes-AMG GLE 53 is a luxurious SUV that pairs a plush, high-tech cabin with a    powerful petrol engine that’s assisted by a performance-boosting hybrid system.",
+      "Image":"https://carwow-uk-wp-2.imgix.net/GLE-53-driving-rear.jpg?auto=format&cs=tinysrgb&fit=clip&ixlib=rb-1.1.0&q=60&w=750"
+    },
+    {
+      "id": 2,
+      "Model": "Audi",
+      "Make": "RS1",
+      "Info":"The new RS1 will reportedly be powered by a 280hp version of Audi's turbocharged 2.0-liter four-cylinder unit. To transmit this power to the wheels Audi is developing a new seven-speed dual-clutch automatic gearbox – a six-speed manual unit will probably still be available, however.",
+      "Image":"https://i.pinimg.com/236x/0f/2c/f3/0f2cf3f63541be3a89914f7613dcb737.jpg"
+    },
+    {
+      "id": 3,
+      "Model": "Mazda",
+      "Make": "Atenza",
+      "Info":"Engine:2.5L 4 cylinder engine, power output 170hp  and torque output 167lb-ft @4000rpm",
+      "Image":"https://www.crotonmotors.com/wp-content/uploads/2019/01/1-1-1024x558.jpeg"
+    },
+    {
+      "id": 4,
+      "Model": "Subaru”",
+      "Make": "Legacy B4-Sport",
+      "Info":"B4. The B4 model was introduced for the third generation and was a sedan-only model. The RSK featured the familiar DOHC, twin-turbo 2.0 litre engine rated 276 bhp (206 kW) (265 bhp (198 kW) for automatic with manual mode). This results in a 0–60 mph time of 5.2 seconds for the manual and 5.8 seconds for the automatic.",
+      "Image":"https://static.carfromjapan.com/spec_cd91b02e-c5d7-4642-8ce4-28ffc4868687_640_0"
+    },
+    {
+      "id": 5,
+      "Model": "volkwagens",
+      "Make": "golf-R",
+      "Info":"Under the Golf R's hood is a turbocharged 2.0-liter inline-four-cylinder that makes 315 horsepower and 310 pound-feet of torque—up from 288 horsepower and 280 pound-feet in the last-generation R. The engine pairs with either a six-speed manual or seven-speed dual-clutch automatic transmission.",
+      "Image":"https://www.topgear.com/sites/default/files/cars-car/carousel/2021/02/golf_r-9.jpg?w=976&h=549"
+    }
+  ]
+}
