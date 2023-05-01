@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 
 const Blog = () => {
 
-    const[blog, setBlog]=useState("")
+    const[blog, setBlog]=useState([])
     console.log(blog);
 
     useEffect(()=>{
@@ -18,13 +18,19 @@ const Blog = () => {
     
     return (  
         <div>
-        
-                   {blog.map((b)=>(
-                    <div className="" key={b.id}>
-        
-                    </div>
-                   ))}
+
+              {blog.map((b)=>(
+                
+                <div className="blog-preview" key={b.id}>
+                    <h2>{b.Model}</h2>
+                    <h2>{b.Make}</h2>
+                    <p>{b.Info}</p>
+                    <img src={b.Image} alt="car"/>
+                
                 </div>
+
+            ))}
+        </div>
     );
 }
  
