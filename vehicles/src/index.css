@@ -7,5 +7,40 @@
 .home{
   color: #fff;
 } */
+*{
+  margin: 0;
+
+
+}
+
+
+.links{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  position: relative;
+  left: 70rem;
+  top: 5rem;
+}
+
+.link{
+  text-decoration: none;
+}
+
+.home{
+  height: 50vh;
+  width: 50vw;
+}
+
+.blog-preview{
+  height: 80vh;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 5px;
+  column-gap: 10px;
+
+}
 
 

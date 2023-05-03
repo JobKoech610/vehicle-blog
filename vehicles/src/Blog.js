@@ -1,5 +1,6 @@
 
 import { useState, useEffect } from "react";
+import NavBar from "./NavBar";
 
 const Blog = () => {
 
@@ -18,7 +19,8 @@ const Blog = () => {
     
     return (  
         <div>
-
+            <NavBar />
+<input type="search" name="search" placeholder="search-blog"/>
               {blog.map((b)=>(
                 
                 <div className="blog-preview" key={b.id}>
