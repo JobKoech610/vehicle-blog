@@ -44,10 +44,10 @@
 }
 
 .blog-preview{
-  height: 80vh;
+  height: fit-content;
   width: 50vw;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   border: 1px solid black;
   border-radius: 5px;
   column-gap: 10px;
@@ -69,3 +69,13 @@
   color: var(--font-color);
 }
 
+.pic{
+  width: 210px;
+  height: 210px;
+}
+
+.search{
+  position: relative;
+  left: 300px;
+  margin: 10px;
+}
