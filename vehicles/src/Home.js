@@ -3,6 +3,7 @@ import NavBar from "./NavBar";
 import { Link } from "react-router-dom"
 
 
+
 // import { useState } from "react";
 
 // import { Switch, Route } from "react-router-dom";
@@ -13,6 +14,7 @@ const Home = () => {
   return (
     <>
 <NavBar />
+
       <h1>All about cars!</h1>
       <p>Discover new models and specifications.</p>
       <nav>
