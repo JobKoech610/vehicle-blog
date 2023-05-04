@@ -48,6 +48,13 @@
       "Info": "engine in the LS is a twin-turbocharged 3.4-liter V-6 that delivers a silky-smooth 416 horsepower.",
       "Image": "https://hips.hearstapps.com/hmg-prod/images/2023-lexus-ls-101-1670276038.jpg?crop=0.737xw:0.623xh;0.0337xw,0.334xh&resize=1200:*",
       "id": 12
+    },
+    {
+      "Model": "Suzuki",
+      "Make": "Jimny",
+      "Info": "Maruti Suzuki Jimny is currently available in Petrol engine. The 1462 cc Petrol engine generates a power of 103.39bhp@6000rpm and a torque of 134.2Nm@4000rpm. Maruti Jimny is available in both Manual & Automatic transmission. Maruti Jimny has a boot space of 208 Liters litres and ground clearance of 210 mm.",
+      "Image": "https://www.suzukimalaysia.com/images/jimny-home-sm.jpg",
+      "id": 13
     }
   ]
 }
