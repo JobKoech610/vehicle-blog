@@ -20,7 +20,7 @@ useEffect(() => {
   return (
     <div className={`App ${themeClass}`}>
       <header>
-      <button onClick={toggleTheme}>
+      <button onClick={toggleTheme} className="mode">
         {isDarkMode ? "Dark mode" : "Light mode"}
       </button>
       </header>

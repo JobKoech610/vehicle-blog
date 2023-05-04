@@ -14,12 +14,15 @@ const Home = () => {
   return (
     <>
 <NavBar />
+     <div className='heading'>
+
 
       <h1>All about cars!</h1>
-      <p>Discover new models and specifications.</p>
+      <p className='incite'> Discover new models and specifications.</p>
       <nav>
       <Link  className="link" to="/Blog"  href=""> View Blog</Link>
       </nav>
+      </div>    
     </>
   );
 };

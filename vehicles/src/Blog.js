@@ -62,11 +62,16 @@ const Blog = () => {
       />
       {blog.map((b) => (
         <div className="blog-preview" key={b.id}>
+          <div className="blog"> 
           <h2>{b.Model}</h2>
           <h2>{b.Make}</h2>
+          <div className="info"> 
           <p>{b.Info}</p>
+          </div>
           <img src={b.Image} alt="car" className="pic" />
+          </div>
           <button onClick={() => handleLike(b.id)}>Like ({b.likes})</button>
+        <hr />
         </div>
       ))}
     </div>
