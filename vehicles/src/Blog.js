@@ -12,12 +12,11 @@ const Blog = () => {
         setBlog(blogs);
       });
   }, []);
-
   //search
   const filterNames = (e) => {
     const search = e.target.value.toLowerCase();
     if (search === "") {
-        fetch("http://localhost:3000/vehicles")
+      fetch("http://localhost:3000/vehicles")
         .then((res) => res.json())
         .then((blogs) => {
           setBlog(blogs);
