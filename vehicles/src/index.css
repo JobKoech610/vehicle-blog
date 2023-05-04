@@ -45,6 +45,8 @@
 }
 
 
+
+
 .App.dark {
   --font-color: rgb(255, 255, 255);
   --background: rgb(50, 50, 50);
@@ -53,6 +55,8 @@
 }
 
 .App {
+  height: 680px;
+  width: 1500px;
   background: var(--background);
   color: var(--font-color);
 
