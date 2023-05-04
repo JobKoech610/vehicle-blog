@@ -21,6 +21,7 @@ import React from 'react';
 
  const NavBar = () => {
     return ( 
+      <>
         <div className="nav-link">
             <nav className="links">
             <Link className="link" to="/"  href="">Home</Link>
@@ -28,6 +29,7 @@ import React from 'react';
                 <Link  className="link" to="/NewBlog"  href="">NewBlog</Link>
                 </nav>    
         </div>
+        </>
      );
  }
   

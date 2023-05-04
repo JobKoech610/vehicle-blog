@@ -75,6 +75,7 @@ hr{
   --background: 	rgba(0, 0, 0, 0.907);
   --background--light: rgb(80, 80, 80);
   transition: all 0.3s;
+  
 }
 
 .App {

@@ -26,7 +26,7 @@ useEffect(() => {
       </header>
 
       <Router>
-        <Routes>
+        <Routes> 
           <Route path="/" element={<Home />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/NewBlog" element={<NewBlog />} />
