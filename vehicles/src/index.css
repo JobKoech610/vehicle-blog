@@ -63,10 +63,9 @@
 }
 
 .App {
-  min-height: 100vh;
-  max-width: 100vw;
+  height: 680px;
+  width: 1500px;
   background: var(--background);
   color: var(--font-color);
-
 }
 
