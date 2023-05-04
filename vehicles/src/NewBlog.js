@@ -23,6 +23,7 @@ const handleSubmit = (e) => {
     e.preventDefault();
     const blog = { Model, Make, Info, Image };
 
+    if (window.confirm("Are you sure you want to add this blog?")) {
     fetch('http://localhost:3000/vehicles', {
       method: 'POST',
       headers: { "Content-Type": "application/json" },
@@ -32,6 +33,7 @@ const handleSubmit = (e) => {
     })
    
   }
+}
 
  
     return ( 

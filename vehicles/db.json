@@ -69,6 +69,13 @@
       "Info": "The Wiltrak X is exclusively available with the bi-turbo 2.0-liter four-cylinder diesel producing 201 hp (150 kW / 204 PS) and 500 Nm (369 lb-ft) of torque. This means it doesn’t get the more powerful 3.0-liter V6 turbodiesel which is optional in the Wildtrak and standard in the Platinum. Power is transmitted to all four wheels through a 10-speed automatic gearbox with the help of the full-time 4WD system.",
       "Image": "https://www.carscoops.com/wp-content/uploads/2023/03/Ford-Ranger-Wildtrak-X-12s.jpg",
       "id": 15
+    },
+    {
+      "Model": "chevrolet",
+      "Make": "silverado",
+      "Info": "The standard TurboMax™ engine is making believers out of diesel and V8 lovers alike. This powerful engine offers more torque than the Ford 2.7L EcoBoost (430 lb.-ft. of torque compared to 400 for the Ford 2.7L) and combines impressive power with uncompromising durability. Torque on demand is delivered by the unique dual volute turbocharger, giving you effortless power and excellent capability to take on the heavy-duty towing jobs with ease.",
+      "Image": "https://www.chevrolet.com/content/dam/chevrolet/na/us/english/retail/may-2023/phase-1/movs/23-mov-sl1500-sia-2048x1024.jpg?imwidth=600",
+      "id": 16
     }
   ]
 }
