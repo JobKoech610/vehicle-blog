@@ -49,10 +49,11 @@
   --background: rgb(50, 50, 50);
   --background--light: rgb(80, 80, 80);
   transition: all 0.3s;
+  
 }
 
 .App {
   background: var(--background);
   color: var(--font-color);
-
+ 
 }

@@ -23,7 +23,7 @@ const Blog = () => {
 <input type="search" name="search" placeholder="search-blog"/>
               {blog.map((b)=>(
                 
-                <div className="blog-preview" key={b.id}>
+                <div className="blog-preview" key={b.make}>
                     <h2>{b.Model}</h2>
                     <h2>{b.Make}</h2>
                     <p>{b.Info}</p>

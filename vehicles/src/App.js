@@ -10,6 +10,8 @@ function App() {
   const toggleTheme = () => {
     setIsDarkMode(!isDarkMode);
   };
+  
+  
   const themeClass = isDarkMode ? "light" : "dark";
   return (
     <div className={`App ${themeClass}`}>
@@ -18,7 +20,7 @@ function App() {
       </button>
 
       <Router>
-        <Routes>
+        <Routes> 
           <Route path="/" element={<Home />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/NewBlog" element={<NewBlog />} />
