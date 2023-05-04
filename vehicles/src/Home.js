@@ -11,14 +11,14 @@ import { Link } from "react-router-dom"
 const Home = () => {
   // const [page, setPage] = useState("/");
   return (
-    <div className="home">
+    <>
 <NavBar />
       <h1>All about cars!</h1>
       <p>Discover new models and specifications.</p>
       <nav>
       <Link  className="link" to="/Blog"  href=""> View Blog</Link>
       </nav>
-    </div>
+    </>
   );
 };
 
