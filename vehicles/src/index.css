@@ -7,9 +7,17 @@
 .home{
   color: #fff;
 } */
+/* body{
+  background: url("https://media2.giphy.com/media/9uIGW7P8Ox6swA5Vw7/giphy.gif?cid=ecf05e47zi3ohtb9bijkt92uxg8wc6mwv2tbp9acv5dj5lpg&ep=v1_gifs_related&rid=giphy.gif&ct=g");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home{
+  color: #fff;
+} */
 *{
   margin: 0;
-  
 
 
 }
@@ -20,17 +28,19 @@
   flex-direction: row;
   gap: 10px;
   position: relative;
-  left: 70rem;
+  left: 50rem;
   top: 5rem;
+
 }
 
 .link{
+  color: aqua;
   text-decoration: none;
 }
 
 .home{
   height: 50vh;
-  width: 50vw;
+  width: 30vw;
 }
 
 .blog-preview{
@@ -53,7 +63,10 @@
 }
 
 .App {
+  min-height: 100vh;
+  max-width: 100vw;
   background: var(--background);
   color: var(--font-color);
 
 }
+
