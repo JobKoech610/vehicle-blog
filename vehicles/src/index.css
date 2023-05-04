@@ -19,17 +19,19 @@
   flex-direction: row;
   gap: 10px;
   position: relative;
-  left: 70rem;
+  left: 50rem;
   top: 5rem;
+
 }
 
 .link{
+  color: aqua;
   text-decoration: none;
 }
 
 .home{
   height: 50vh;
-  width: 50vw;
+  width: 30vw;
 }
 
 .blog-preview{
@@ -52,7 +54,11 @@
 }
 
 .App {
+  height: 680px;
+  width: 1500px;
   background: var(--background);
   color: var(--font-color);
 
 }
+
+
