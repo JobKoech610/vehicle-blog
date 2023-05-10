@@ -38,7 +38,7 @@
     {
       "Model": "Toyota",
       "Make": "vitz",
-      "Info": "engine: 1200",
+      "Info": "The Toyota Vitz comes with a variety of engine as well as transmission options. Vitz is available in 1.0 liters to 1.5 liters engine mated with five-speed manual, six-speed manual and four-speed automatic and CVT transmission. All the engines of Vitz equipped with double overhead cam.",
       "Image": "https://www.mad4wheels.com/img/free-car-images/desktop/7461/toyota-vitz-2011-297786.jpg",
       "id": 11
     },
@@ -55,6 +55,27 @@
       "Info": "Maruti Suzuki Jimny is currently available in Petrol engine. The 1462 cc Petrol engine generates a power of 103.39bhp@6000rpm and a torque of 134.2Nm@4000rpm. Maruti Jimny is available in both Manual & Automatic transmission. Maruti Jimny has a boot space of 208 Liters litres and ground clearance of 210 mm.",
       "Image": "https://www.suzukimalaysia.com/images/jimny-home-sm.jpg",
       "id": 13
+    },
+    {
+      "Model": "truck",
+      "Make": "ram",
+      "Info": "A longtime titan in the full-size truck segment, the 2023 Ram 1500 delivers even more innovation and capability than previous model years. With four powerful engines to choose from, a wide array of state-of-the-art technologies, and innovative bed features, you’ll feel confident behind the wheel of the Ram 1500. Learn more about this dynamic pickup truck with assistance from the team at Petersen Chrysler Dodge Jeep Ram.",
+      "Image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvvkxFrJtuSJz0tB3nVBYC8bQ3E9xBZT67eiVeQCT5gIBsGNG2lQAjm54po2vt1ZC6_N4&usqp=CAU",
+      "id": 14
+    },
+    {
+      "Model": "Ford",
+      "Make": "Ranger Wildtrak",
+      "Info": "The Wiltrak X is exclusively available with the bi-turbo 2.0-liter four-cylinder diesel producing 201 hp (150 kW / 204 PS) and 500 Nm (369 lb-ft) of torque. This means it doesn’t get the more powerful 3.0-liter V6 turbodiesel which is optional in the Wildtrak and standard in the Platinum. Power is transmitted to all four wheels through a 10-speed automatic gearbox with the help of the full-time 4WD system.",
+      "Image": "https://www.carscoops.com/wp-content/uploads/2023/03/Ford-Ranger-Wildtrak-X-12s.jpg",
+      "id": 15
+    },
+    {
+      "Model": "chevrolet",
+      "Make": "silverado",
+      "Info": "The standard TurboMax™ engine is making believers out of diesel and V8 lovers alike. This powerful engine offers more torque than the Ford 2.7L EcoBoost (430 lb.-ft. of torque compared to 400 for the Ford 2.7L) and combines impressive power with uncompromising durability. Torque on demand is delivered by the unique dual volute turbocharger, giving you effortless power and excellent capability to take on the heavy-duty towing jobs with ease.",
+      "Image": "https://www.chevrolet.com/content/dam/chevrolet/na/us/english/retail/may-2023/phase-1/movs/23-mov-sl1500-sia-2048x1024.jpg?imwidth=600",
+      "id": 16
     }
   ]
 }

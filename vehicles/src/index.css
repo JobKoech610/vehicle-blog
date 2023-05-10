@@ -1,58 +1,151 @@
-/* body{
-  background: url("https://media2.giphy.com/media/9uIGW7P8Ox6swA5Vw7/giphy.gif?cid=ecf05e47zi3ohtb9bijkt92uxg8wc6mwv2tbp9acv5dj5lpg&ep=v1_gifs_related&rid=giphy.gif&ct=g");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.home{
-  color: #fff;
-} */
-*{
+body{
   margin: 0;
-
-
+  padding: 0;
+  
+ 
 }
-
 
 .links{
   display: flex;
   flex-direction: row;
   gap: 10px;
   position: relative;
-  left: 70rem;
-  top: 5rem;
+  left: 60rem;
+  background-color: black;
+  width: 15rem;
+  border-radius: 5px;
+  top: 2rem;
+  height: 2rem;
+  font-size: 2em;
+  
 }
 
+
 .link{
+  color: aqua;
+  text-decoration: none;
+}
+
+.link:active{
+  color: red;
   text-decoration: none;
 }
 
 .home{
   height: 50vh;
-  width: 50vw;
+  width: 30vw;
+  font-size: 12px;
 }
 
-.blog-preview{
-  height: 80vh;
-  width: 50vw;
+.blog{
+  height: fit-content;
+  
   display: flex;
-  flex-direction: column;
-  border: 1px solid black;
+  flex-direction: row;
+  
   border-radius: 5px;
-  column-gap: 10px;
+  margin: 70px;
+  gap: 10px;
+  position: relative;
+  margin-top: 5px;
+  
 
 }
 
+.info{
+  width: 30rem;
+  
+  position: absolute;
+  left: 300px;
+
+}
+
+.blog>img{
+  position: absolute;
+  left: 800px;
+  height: 140px;
+}
+
+hr{
+  width: 20rem;
+}
 
 .App.dark {
   --font-color: rgb(255, 255, 255);
-  --background: rgb(50, 50, 50);
+  --background: 	rgba(0, 0, 0, 0.907);
   --background--light: rgb(80, 80, 80);
   transition: all 0.3s;
+  
 }
 
 .App {
+  height: 1000vh;
+  width: 1500px;
   background: var(--background);
   color: var(--font-color);
+}
 
+.pic{
+  width: 210px;
+  height: 200px;
+}
+
+.search{
+  position: relative;
+  left: 30rem;
+  margin: 10px;
+  border-radius: 10px;
+  width: 20rem;
+  height: 2rem;
+}
+
+.search:hover{
+  border: 1px solid red;
+  color:rgb(50, 50, 50)
+}
+
+.heading{
+  text-align: center;
+  position: relative;
+  top: 5rem;
+  font-size: 1.5em;
+  
+}
+
+.mode{
+  margin: 10px;
+  box-shadow: 0px 10px 14px -7px #3e7327;
+	background:linear-gradient(to bottom, #77b55a 5%, #72b352 100%);
+	background-color:#77b55a;
+	border-radius:4px;
+	border:1px solid #4b8f29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 12px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #5b8a3c;
+  
+}
+
+.mode:hover {
+	background:linear-gradient(to bottom, #72b352 5%, #77b55a 100%);
+	background-color:#72b352;
+}
+.mode:active {
+	position:relative;
+	top:1px;
+}
+
+.blog-preview>button{
+  position: relative;
+  left: 40rem;
+  bottom: 10px;
+}
+
+.blog-preview{
+  font-size: 1.2em;
 }
