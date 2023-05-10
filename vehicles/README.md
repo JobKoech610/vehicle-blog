@@ -15,7 +15,7 @@ HTML, CSS & ReactJS
  2. Use your terminal to navigate to the "./vehicles" directory.
  3. Run "json-server --watch db.json" and leave the terminal running
  4. To open the application, either open a new tab om the terminal, run "npm install && npm start" and accept the prompt of serving on a different port. Or
- follow the link: https://vehicle-blog.netlify.app/
+ follow the link: https://vehicle-blog.netlify.app/  -N/B(Run "json-server --watch db.json" ) to dipslay blog content
 
 
 
